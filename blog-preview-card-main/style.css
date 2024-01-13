@@ -1,0 +1,86 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    --yellow: hsl(47, 88%, 63%);
+
+    --neutralWhite: hsl(0, 0%, 100%);
+    --neutralGrey: hsl(0, 0%, 50%);
+    --neutralBlack: hsl(0, 0%, 7%);
+
+
+}
+
+body{
+    margin: 0;
+    background-color: var(--yellow);
+    font-family: 'Figtree', sans-serif;
+}
+
+.card{
+    background-color: white;
+    width: 92%;
+    max-width: 400px;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 1rem;
+    padding: 1.5rem 1.5rem;
+    box-shadow: 6px 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+    
+}
+
+.hero__img {
+    border-radius: .75rem;
+    width: 100%;
+}
+
+h3 {
+    display: inline-block;
+    font-size: 16px;
+    background-color: var(--yellow);
+    padding: .25rem .75rem;
+    border-radius: .35rem;
+    margin-top: 1.25rem;
+}
+
+.publish-date{
+    margin: .75rem 0;
+    color: black;
+    font-size: .8em;
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    color: var(--neutralGrey);
+    margin-bottom: 1rem;
+    line-height: 1.5rem;
+}
+
+.avatar{
+    display: flex;
+    align-items: center;
+}
+
+.avatar img{
+    max-width: 15%;
+    margin-right: 1rem;
+}
+
+h2 {
+    font-size: 1em;
+    font-weight: 800;
+}
+
+@media (min-width: 376) {
+
+}
